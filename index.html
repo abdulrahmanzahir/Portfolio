@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Abdulrahman Zahir | AI/ML Engineer Portfolio</title>
+    <meta name="description" content="Abdulrahman Zahir - AI/ML Engineer specializing in machine learning, deep learning, and data science. View my projects and experience.">
+    <meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, Python, TensorFlow, Data Science">
+    <meta name="author" content="Abdulrahman Zahir">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Abdulrahman Zahir | AI/ML Engineer">
+    <meta property="og:description" content="Portfolio of Abdulrahman Zahir - AI/ML Engineer">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/133116031">
+    <meta property="og:url" content="https://abdulrahmanzahir.github.io/Portfolio/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/9418/9418231.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Global Background Effects -->
+    <div class="global-background">
+        <div class="grid-overlay"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="nav-container" id="navbar">
+        <div class="nav-wrapper">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">AZ</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-name">
+                    <span class="name-line">Abdulrahman</span>
+                    <span class="name-line">Zahir</span>
+                </h1>
+                <h2 class="hero-title">
+                    <span class="title-bracket">&lt;</span>
+                    AI/ML Engineer
+                    <span class="title-bracket">/&gt;</span>
+                </h2>
+                <p class="hero-description">
+                    Transforming data into intelligent solutions. Specializing in machine learning, 
+                    deep learning, and AI-driven innovation to solve real-world challenges.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="https://drive.google.com/file/d/1-D6fNhEamRyTwYNSMPYoObVFVxu9AovX/view?usp=drive_link" 
+                       target="_blank" 
+                       class="btn btn-primary">
+                        <span>View CV</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Let's Talk</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="https://github.com/abdulrahmanzahir" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/abdulrahmanzahir" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <div class="social-indicator"></div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="window-dot"></span>
+                        <span class="window-dot"></span>
+                        <span class="window-dot"></span>
+                    </div>
+                    <div class="window-body">
+                        <pre><code class="typing-code"></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section-about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image-wrapper">
+                    <div class="about-image-border"></div>
+                    <img src="https://avatars.githubusercontent.com/u/133116031?s=400&u=f70e7a76f338e9f7e0052752946cc685a58a816e&v=4" 
+                         alt="Abdulrahman Zahir" 
+                         class="about-image">
+                </div>
+                
+                <div class="about-text">
+                    <p class="about-description">
+                        A motivated AI Engineer with a strong foundation in machine learning, 
+                        data analysis, and large language models. My passion lies in developing intelligent 
+                        systems that make a real-world impact.
+                    </p>
+                    <p class="about-description">
+                        I'm eager to apply my skills in model development, 
+                        data-driven problem solving, and API integration 
+                        to contribute to innovative AI solutions while continuously learning and growing 
+                        in collaborative environments.
+                    </p>
+                    
+                    <div class="about-social">
+                        <a href="https://www.linkedin.com/in/abdulrahmanzahir/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/abdulrahmanzahir" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/abdhzr" target="_blank" class="social-icon" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/abdhzr" target="_blank" class="social-icon" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming & ML -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Programming & ML</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><img src="https://cdn.simpleicons.org/python" alt="Python" class="tag-icon">Python</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/tensorflow" alt="TensorFlow" class="tag-icon">TensorFlow</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/scikitlearn" alt="Scikit-learn" class="tag-icon">Scikit-learn</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/numpy" alt="NumPy" class="tag-icon">NumPy</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/pandas" alt="Pandas" class="tag-icon">Pandas</span>
+                    </div>
+                </div>
+                
+                <!-- Data Analysis & Visualization -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="skill-title">Data Analysis & Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><img src="https://cdn.simpleicons.org/pandas" alt="Pandas" class="tag-icon">Pandas</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/plotly" alt="Matplotlib" class="tag-icon">Matplotlib</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/jupyter" alt="Jupyter" class="tag-icon">Jupyter Notebook</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/googlecolab" alt="Google Colab" class="tag-icon">Google Colab</span>
+                    </div>
+                </div>
+                
+                <!-- Databases & Data Handling -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">Databases & Data Handling</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><img src="https://cdn.simpleicons.org/mysql" alt="MySQL" class="tag-icon">MySQL</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/postgresql" alt="PostgreSQL" class="tag-icon">PostgreSQL</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB" class="tag-icon">MongoDB</span>
+                        <span class="tag"><i class="fas fa-filter tag-icon"></i>Data Preprocessing</span>
+                        <span class="tag"><i class="fas fa-broom tag-icon"></i>Data Cleaning</span>
+                    </div>
+                </div>
+                
+                <!-- APIs & Backend Integration -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3 class="skill-title">APIs & Backend Integration</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class="fas fa-exchange-alt tag-icon"></i>RESTful APIs</span>
+                        <span class="tag"><i class="fas fa-plug tag-icon"></i>API Integration</span>
+                        <span class="tag"><i class="fas fa-project-diagram tag-icon"></i>Model Integration</span>
+                    </div>
+                </div>
+                
+                <!-- Deployment & DevOps -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="skill-title">Deployment & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><img src="https://cdn.simpleicons.org/git" alt="Git" class="tag-icon">Git</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/github" alt="GitHub" class="tag-icon">GitHub</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/githubactions" alt="GitHub Actions" class="tag-icon">GitHub Actions</span>
+                        <span class="tag"><img src="https://cdn.simpleicons.org/docker" alt="Docker" class="tag-icon">Docker</span>
+                        <span class="tag"><i class="fas fa-infinity tag-icon"></i>CI/CD Pipelines</span>
+                    </div>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="skill-title">Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag"><i class="fas fa-search tag-icon"></i>Research</span>
+                        <span class="tag"><i class="fas fa-users tag-icon"></i>Teamwork</span>
+                        <span class="tag"><i class="fas fa-clock tag-icon"></i>Time Management</span>
+                        <span class="tag"><i class="fas fa-comments tag-icon"></i>Communication Skills</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: DiabTrack -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800" 
+                             alt="DiabTrack">
+                        <div class="project-overlay">
+                            <a href="https://diabtrack.vercel.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/abdulrahmanzahir/webapp-DiabTrack" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DiabTrack</h3>
+                        <p class="project-description">
+                            AI-driven healthcare platform for early diabetes risk identification. 
+                            Provides clinicians with clear insights and personalized guidance.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag"><img src="https://cdn.simpleicons.org/python" alt="Python" class="tag-icon">Python</span>
+                            <span class="tag"><img src="https://cdn.simpleicons.org/fastapi" alt="FastAPI" class="tag-icon">FastAPI</span>
+                            <span class="tag"><img src="https://cdn.simpleicons.org/react" alt="React" class="tag-icon">ReactJS</span>
+                            <span class="tag"><i class="fas fa-brain tag-icon"></i>ML/DL</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 2: Brain Tumor Detection -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800" 
+                             alt="Brain Tumor Detection">
+                        <div class="project-overlay">
+                            <a href="https://github.com/abdulrahmanzahir/Brain-Tumor-Detection" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Brain Tumor Detection</h3>
+                        <p class="project-description">
+                            Deep learning project using transfer learning with ResNet50, EfficientNetB0, 
+                            and MobileNetV2 for MRI tumor classification.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag"><img src="https://cdn.simpleicons.org/tensorflow" alt="TensorFlow" class="tag-icon">TensorFlow</span>
+                            <span class="tag"><img src="https://cdn.simpleicons.org/keras" alt="Keras" class="tag-icon">Keras</span>
+                            <span class="tag"><i class="fas fa-exchange-alt tag-icon"></i>Transfer Learning</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 3: Rental Management -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800" 
+                             alt="Smart Rental Management">
+                        <div class="project-overlay">
+                            <a href="https://github.com/abdulrahmanzahir/Smart_Rental_Management_System" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Rental System</h3>
+                        <p class="project-description">
+                            Full-stack rental management with FastAPI and MongoDB. Features WebSocket 
+                            notifications and Kafka-based event logging.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag"><img src="https://cdn.simpleicons.org/fastapi" alt="FastAPI" class="tag-icon">FastAPI</span>
+                            <span class="tag"><img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB" class="tag-icon">MongoDB</span>
+                            <span class="tag"><img src="https://cdn.simpleicons.org/apachekafka" alt="Kafka" class="tag-icon">Kafka</span>
+                            <span class="tag"><i class="fas fa-plug tag-icon"></i>WebSocket</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 4: House Price Prediction -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800" 
+                             alt="House Price Prediction">
+                        <div class="project-overlay">
+                            <a href="https://github.com/abdulrahmanzahir/House-Price-Prediction" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">House Price Prediction</h3>
+                        <p class="project-description">
+                            Complete ML lifecycle project with MLflow for tracking and monitoring. 
+                            Includes data ingestion, preprocessing, and model deployment.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag"><img src="https://cdn.simpleicons.org/mlflow" alt="MLflow" class="tag-icon">MLflow</span>
+                            <span class="tag"><i class="fas fa-wrench tag-icon"></i>Feature Engineering</span>
+                            <span class="tag"><i class="fas fa-server tag-icon"></i>REST API</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="projects-footer">
+                <a href="https://github.com/abdulrahmanzahir?tab=repositories" 
+                   target="_blank" 
+                   class="btn btn-outline">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            
+            <div class="experience-card">
+                <div class="experience-date">Aug 2024 - Sep 2025</div>
+                <h3 class="experience-title">AI Engineer Intern</h3>
+                <div class="experience-company">ALSTOM</div>
+                <ul class="experience-description">
+                    <li>Built structured data logging pipelines that improved visibility of recurring train faults by <strong>30%</strong></li>
+                    <li>Applied AI-driven analytical techniques improving response prioritization accuracy by <strong>20%</strong></li>
+                    <li>Analyzed historical maintenance data reducing diagnostic time by <strong>25%</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- Education Section -->
+    <section id="education" class="section-education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+            </div>
+            
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3 class="education-degree">Bachelor of Science in AI Engineering</h3>
+                    <div class="education-school">Bahçeşehir University, Istanbul</div>
+                    <div class="education-period">Oct 2020 - Jun 2025</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section-certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            
+            <div class="certificates-grid">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="certificate-title">Understanding Artificial Intelligence</h3>
+                    <div class="certificate-issuer">DataCamp</div>
+                    <div class="certificate-date">Nov 2023</div>
+                    <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/bf0a04b20216dbef0b2918cc909f21a0c7029277" 
+                       target="_blank" 
+                       class="certificate-link">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="certificate-title">Machine Learning with Python</h3>
+                    <div class="certificate-issuer">IBM</div>
+                    <div class="certificate-date">Nov 2023</div>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/JKSZC2Y8VAHN" 
+                       target="_blank" 
+                       class="certificate-link">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <!-- Certificate 3 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h3 class="certificate-title">Azure Cloud Services</h3>
+                    <div class="certificate-issuer">Microsoft</div>
+                    <div class="certificate-date">Dec 2023</div>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/D67TERQ235PX" 
+                       target="_blank" 
+                       class="certificate-link">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="certificate-title">Deep Learning Specialization</h3>
+                    <div class="certificate-issuer">DeepLearning.AI</div>
+                    <div class="certificate-date">May 2024</div>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/YSMHNNRABAX8" 
+                       target="_blank" 
+                       class="certificate-link">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                
+                <!-- Certificate 5 -->
+                <div class="certificate-card">
+                    <div class="certificate-icon" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="certificate-title">MLOps Specialization</h3>
+                    <div class="certificate-issuer">Duke University</div>
+                    <div class="certificate-date">May 2025</div>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/J2EXIAW0KLWR" 
+                       target="_blank" 
+                       class="certificate-link">
+                        View Certificate <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-separator">
+        <span class="separator-dot"></span>
+        <span class="separator-line"></span>
+        <span class="separator-dot"></span>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm currently open to new opportunities and collaborations. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:abdulrahman.hosamaddin@gmail.com" class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-method-info">
+                                <div class="contact-method-label">Email</div>
+                                <div class="contact-method-value">abdulrahman.hosamaddin@gmail.com</div>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:+966553503701" class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-method-info">
+                                <div class="contact-method-label">Phone</div>
+                                <div class="contact-method-value">+966 553 503 701</div>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-method">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-method-info">
+                                <div class="contact-method-label">Location</div>
+                                <div class="contact-method-value">Jeddah, Saudi Arabia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Abdulrahman Zahir. All rights reserved.</p>
+                <p>Designed & Built with passion to innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
