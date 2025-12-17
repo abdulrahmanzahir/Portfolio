@@ -5,7 +5,6 @@
 ## ✨ Features
 
 ### 🎨 Design
-- **100% Original Design** - Every line of code written from scratch
 - **Modern Aesthetic** - Cyan/Electric Blue color scheme with gradient effects
 - **Dark Mode** - Eye-friendly dark theme with smooth transitions
 - **Responsive** - Fully responsive across all devices
@@ -169,4 +168,4 @@ Currently pursuing BSc in AI Engineering at Bahçeşehir University, Istanbul.
 
 **Built with ❤️ by Abdulrahman Zahir**
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
